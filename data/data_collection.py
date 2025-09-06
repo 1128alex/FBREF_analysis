@@ -19,7 +19,7 @@ options.binary_location = os.environ.get("CHROME_DRIVER_PATH")
 
 google_url = "https://www.google.com"
 
-team = "bayer04"
+team = "spurs"
 team_code = {"spurs": "361ca564", "bayer04": "c7a9f859"}
 season = "2023-2024"
 competition = {
