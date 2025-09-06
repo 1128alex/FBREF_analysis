@@ -22,17 +22,14 @@ A football analytics project that collects team match logs from FBref with Selen
 .
 ├─ .env                     # private config (user agent, chrome path, etc.)
 ├─ .gitignore
-├─ analysis_plan.txt        # ideas and analysis checklist (Korean + notes)
+├─ analysis_plan.txt
 ├─ data/
 │  ├─ bayer04_2023_2024_matchlog.csv
 │  ├─ spurs_2023_2024_matchlog.csv
-│  └─ data_collection.py    # (legacy/placeholder; main collector is at repo root)
-├─ data_collection.py       # Selenium collector (FBref → CSV in data/)
-├─ main.py                  # Progressive passes vs carries (scatter) → result/passvscarry.png
-├─ main2.py                 # Multi-viz for Bayer 04 dataset → result/*.png
-├─ main3.py                 # Custom Spurs analyses → data/*.png
+│  └─ data_collection.py
+├─ data_collection.py
+├─ main.py
 └─ result/
-   └─ (charts written here by scripts)
 ```
 
 ## 🧪 Example Visualizations
